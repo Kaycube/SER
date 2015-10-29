@@ -1,0 +1,10 @@
+make equipment_scroll scroll to the bottom when a new equipment panel is inserted.
+make arrayList of equipmentpanels for EACH work order in the queue on startup from the database (Currently only one arraylist)
+make arrayList of multiLineButtons for EACH item in the queue on startup from database (Currently only one arraylist)
+remove equipment button removes the last ep from the eqPanels and then
+	iterates through the equipmentPanel objects in the arraylist and repaints each one.
+invoice entry screen will work in a similar fashion when the finalize invoice button is pressed.
+add buttons to mark as paid inside the invoices table
+	https://www.youtube.com/watch?v=3LiSHPqbuic
+forced removal of an item from queue (removal with no invoice created) will be done via a selection in the menu bar with 
+	a cautionary prompt
